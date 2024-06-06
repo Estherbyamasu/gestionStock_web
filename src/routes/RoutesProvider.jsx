@@ -8,6 +8,7 @@ import administration_routes from "./admin/administration_routes";
 import categories_routes from "./categorie/CategoriesRoute";
 import produit_routes from "./produit/Produit_Route";
 import client_routes from "./client/ClientRoute";
+import role_routes from "./role/RoleRoute";
 
 export default function RoutesProvider () {
           return (
@@ -17,6 +18,7 @@ export default function RoutesProvider () {
                               {categories_routes}
                               {produit_routes}
                               {client_routes}
+                              {role_routes}
                     </Routes>
           )
 }

@@ -91,6 +91,18 @@ export default function SideBar() {
                         </Link>
                     </div>
 
+                    <div className='nav-item'>
+                        <Link to={"role"} className="text-decoration-none rounded d-block" href="/role">
+                            <div className="d-flex align-items-center justify-content-between py-2 px-3">
+                                <div className='d-flex align-items-center justify-content-between'>
+                                    <div className="menu-icon">
+                                    </div>
+                                    <span className='menu-title'>Role</span>
+                                </div>
+                            </div>
+                        </Link>
+                    </div>
+
 
 
                     <div className='nav-item'>
